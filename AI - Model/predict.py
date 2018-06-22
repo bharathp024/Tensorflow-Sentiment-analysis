@@ -71,7 +71,7 @@ def prediction_module(comment):
         sentiment = 'neutral'
     else:
         sentiment = 'negative'
-    return "Prediction for the comment '%s' is : %s" %(comment, sentiment,)
+    return "Prediction for the comment '%s' is : %s \n" %(comment, sentiment,)
 
 def prediction_summary():
     
